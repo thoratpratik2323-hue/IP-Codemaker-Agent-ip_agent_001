@@ -767,8 +767,14 @@ export default function App() {
               IP
             </div>
             <div>
-              <h1 className="text-sm font-black tracking-wider text-white uppercase italic leading-none">IP Codemaker</h1>
-              <p className="text-[9px] font-mono mt-1 font-semibold tracking-widest uppercase text-cyan-400">
+              <h1 className="text-sm font-black tracking-wider text-white uppercase italic leading-none flex items-center gap-1.5">
+                IP Codemaker
+              </h1>
+              <div className="flex items-center gap-1 text-[9px] font-mono mt-1 font-bold text-emerald-400">
+                <CheckCircle2 className="w-3 h-3 text-emerald-400" />
+                <span>IP VERSE VERIFIED</span>
+              </div>
+              <p className="text-[9px] font-mono mt-0.5 font-semibold tracking-widest uppercase text-cyan-400">
                 Operator: {userSettings.operatorName}
               </p>
             </div>
