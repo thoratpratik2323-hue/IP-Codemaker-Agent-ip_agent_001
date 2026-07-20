@@ -1,78 +1,159 @@
-# IP Codemaker Agent (ip_agent_001)
+<div align="center">
 
-<p align="center">
-  <img src="assets/vortex-logo.png" alt="IP Codemaker Agent Neural Vortex" width="500" />
-</p>
+# ⚡ IP CODEMAKER AGENT (`ip_agent_001`)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/OS-Neural_Vortex-8A2BE2?style=for-the-badge&logo=target" alt="OS" />
-  <img src="https://img.shields.io/badge/Mission-IP_Verse-FF4500?style=for-the-badge&logo=shield" alt="Mission" />
-  <img src="https://img.shields.io/badge/Agent-Red-D0312D?style=for-the-badge" alt="Agent Red" />
-  <img src="https://img.shields.io/badge/Agent-Purple-800080?style=for-the-badge" alt="Agent Purple" />
-</p>
+### *The World's Most Advanced Autonomous AI Coding Suite & Multi-Model API Router*
 
----
-
-## 🌌 The Neural Interface
-IP Codemaker Agent is a high-fidelity, autonomous AI development assistant specialized for the **IP Verse** ecosystem. Powered by a custom **Neural Vortex** engine, it delivers a "God Mode" coding experience with real-time feedback and tactical oversight.
-
-### 🧬 Core Identity
-- **Designation**: `ip_agent_001`
-- **Ecosystem**: IP Verse Neural Network
-- **Primary Control**: Agent Red & Agent Purple
-- **Mission**: Accelerate the development of the IP ecosystem through autonomous code generation, system architecture, and deep-learning integration.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/React-18-cyan.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-3.0-emerald.svg)
+![WebGL](https://img.shields.io/badge/3D%20Canvas-WebGL-purple.svg)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-Compatible-green.svg)
 
 ---
 
-## 🎮 Features & HUD
-The Agent features a **"Neural Vortex" Dashboard**—a 3D tactical interface designed for high-stakes mission execution:
+### 🌐 [Live Web Dashboard: http://localhost:3006](http://localhost:3006) | 🔌 [Backend REST API: http://localhost:5000](http://localhost:5000)
 
-- **Neural Particle Background**: Real-time visual feedback based on the current mission state.
-- **Dual-Theme Synchronization**:
-  - **🚨 Agent Red (Inferno)**: High-intensity mode for rapid fire development.
-  - **🌌 Agent Purple (Zenith)**: Deep concentration mode for system architecture.
-- **Holographic HUD**: Real-time telemetry for model token usage, file vault health, and system resources.
+</div>
 
 ---
 
-## 🛠️ Repository Architecture
+## 🚀 Overview
 
-- **`rust/`** — Canonical Rust engine and the `claw` CLI binary.
-- **`gui/`** — The React-driven Neural Vortex interface.
-- **`USAGE.md`** — Tactical guide for build, auth, and session workflows.
-- **`ROADMAP.md`** — The evolution of the Neural Vortex and upcoming mission phases.
+**IP Codemaker Agent** is a next-generation autonomous AI developer workspace designed for high-performance software engineering, dynamic code synthesis, and multi-model agent orchestration.
 
----
+Equipped with a **3D Neural Vortex Canvas HUD**, **Claude 3.5 Sonnet Reasoning Trace**, **Antigravity AI Multi-Agent Swarm**, **Desktop Drag-and-Drop Uploader**, and an **OpenAI-Compatible REST API**, IP Codemaker turns any developer prompt into production-ready software in seconds.
 
 ---
 
-## ⚡ Mission Control (Launch Protocols)
+## 🔥 Key Flagship Features
 
-### 🖥️ Neural Desktop Interface
-Launch the high-fidelity standalone desktop experience:
+```
+               ┌─────────────────────────────────────────┐
+               │    IP CODEMAKER CORE NEURAL ENGINE      │
+               └────────────────────┬────────────────────┘
+                                    │
+         ┌──────────────────────────┼──────────────────────────┐
+         ▼                          ▼                          ▼
+  ┌──────────────┐           ┌──────────────┐           ┌──────────────┐
+  │ CHATGPT CORE │           │ ANTIGRAVITY  │           │  CLAUDE 3.5  │
+  │ Conversational│           │ Multi-Agent  │           │ Reasoning &  │
+  │   Synthesis  │           │   Artifacts  │           │ Computer Use │
+  └──────────────┘           └──────────────┘           └──────────────┘
+```
+
+### 🧠 1. Claude 3.5 Sonnet & Computer Use Suite
+- **Collapsible `<thinking>` Reasoning Trace**: View step-by-step cognitive analysis before code output.
+- **Computer Use Action Badges**: Real-time visual telemetry for automated browser & CLI actions.
+- **Project Knowledge Base Manager**: Store custom guidelines, coding conventions, and rules into a 200K Context Window.
+
+### ⚡ 2. Antigravity AI Multi-Agent Swarm
+- **Slash Commands Menu (`/`)**: `/goal`, `/plan`, `/audit`, `/schedule`, `/browser`, `/grill-me`, `/learn`, `/zip`.
+- **Living Artifacts Drawer**: Track real-time `implementation_plan.md` and `task_checklist.md`.
+- **Planning Mode Toggle**: Switch between multi-step architectural planning and direct execution.
+
+### 📂 3. Desktop Drag-and-Drop & Workspace File Explorer
+- **Desktop Drag-and-Drop Uploader**: Drag any file directly from your computer desktop onto the browser window.
+- **1-Click File Saver**: Save generated code blocks straight onto your hard disk.
+- **Live Workspace Explorer**: Inspect local project files directly from the sidebar drawer.
+
+### 📦 4. Real-Time Live Workspace Exporter
+- **1-Click Zip Downloader**: Package and export your current live codebase into a `.zip` archive in real time.
+- Pre-packaged starter kits for **React 18 + Vite**, **FastAPI**, and **Jarvis Voice Assistant**.
+
+### 🔌 5. OpenAI-Compatible REST API (`/v1/chat/completions`)
+- Drop-in replacement for OpenAI API running on `http://localhost:5000/v1`.
+- Seamlessly connects with **Cursor**, **VS Code Extensions**, **LangChain**, and external web apps.
+
+---
+
+## 💻 Installation & Setup
+
+### Requirements
+- **Node.js** v18.0 or higher
+- **Python** v3.9 or higher
+
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/thoratpratik2323-hue/Project-Brain-v2.git
+cd Project-Brain-v2
+```
+
+### Step 2: Install Backend Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Install GUI Dependencies
 ```bash
 cd gui
 npm install
-npm run desktop
 ```
 
-### 🧬 Link Initialization
-Initialize the backend neural link:
+---
+
+## 🎮 Launching the Application
+
+#### Start Python Backend API (Terminal 1)
 ```bash
-cd rust
-cargo build --workspace
-./target/debug/claw --help
+python server.py
+# Server running at http://localhost:5000
+```
+
+#### Start Vite GUI Dashboard (Terminal 2)
+```bash
+cd gui
+npm run dev
+# Dashboard running at http://localhost:3006
+```
+
+Open **[http://localhost:3006](http://localhost:3006)** in your browser!
+
+---
+
+## 🛠️ API Usage Examples
+
+### OpenAI-Compatible Endpoint (`/v1/chat/completions`)
+```bash
+curl -X POST http://localhost:5000/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "ip_agent_001",
+    "messages": [
+      {"role": "user", "content": "write a login component in react"}
+    ]
+  }'
+```
+
+### Direct Generative Synthesis (`/api/generate`)
+```bash
+curl -X POST http://localhost:5000/api/generate \
+  -H "Content-Type: application/json" \
+  -d '{
+    "prompt": "python web scraper",
+    "type": "code"
+  }'
 ```
 
 ---
 
-## 🛡️ Protocol Disclaimer
-This project is an official component of the **IP Verse** ecosystem. It is a specialized implementation designed to serve as the ultimate development backbone for the mission. 
+## 🌐 Production Deployment Guide
 
-**Access restricted to Authorized Agents only.**
+| Target | Platform | Command / Config |
+| :--- | :--- | :--- |
+| **Frontend GUI** | Vercel / Netlify | Build Command: `npm run build` | Output Dir: `gui/dist` |
+| **Backend API** | Render / Railway / Fly.io | Command: `uvicorn server:app --host 0.0.0.0 --port $PORT` |
+| **Container** | Docker | `docker build -t ip-agent . && docker run -p 5000:5000 ip-agent` |
 
 ---
 
-<p align="center">
-  <i>"Beyond the code. Into the Vortex."</i>
-</p>
+## 📜 License
+
+Distributed under the **MIT License**. Free for personal and commercial open-source development.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for IP Verse</b>
+</div>
