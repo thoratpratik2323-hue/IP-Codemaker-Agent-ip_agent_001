@@ -4,6 +4,9 @@
 
 ### *The World's Most Advanced Autonomous AI Coding Suite & Multi-Model API Router*
 
+**Developed by [Pratik](https://pratik-pt1908.netlify.app) for IP Verse**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-pratik--pt1908.netlify.app-cyan.svg)](https://pratik-pt1908.netlify.app)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18-cyan.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)
@@ -21,7 +24,7 @@
 
 ## 🚀 Overview
 
-**IP Codemaker Agent** is a next-generation autonomous AI developer workspace designed for high-performance software engineering, dynamic code synthesis, and multi-model agent orchestration.
+**IP Codemaker Agent** is a next-generation autonomous AI developer workspace designed by **[Pratik](https://pratik-pt1908.netlify.app)** for high-performance software engineering, dynamic code synthesis, and multi-model agent orchestration.
 
 Equipped with a **3D Neural Vortex Canvas HUD**, **Claude 3.5 Sonnet Reasoning Trace**, **Antigravity AI Multi-Agent Swarm**, **Desktop Drag-and-Drop Uploader**, and an **OpenAI-Compatible REST API**, IP Codemaker turns any developer prompt into production-ready software in seconds.
 
@@ -76,8 +79,8 @@ Equipped with a **3D Neural Vortex Canvas HUD**, **Claude 3.5 Sonnet Reasoning T
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/thoratpratik2323-hue/Project-Brain-v2.git
-cd Project-Brain-v2
+git clone https://github.com/thoratpratik2323-hue/IP-Codemaker-Agent-ip_agent_001.git
+cd IP-Codemaker-Agent-ip_agent_001
 ```
 
 ### Step 2: Install Backend Dependencies
@@ -112,39 +115,11 @@ Open **[http://localhost:3006](http://localhost:3006)** in your browser!
 
 ---
 
-## 🛠️ API Usage Examples
+## 🌐 Creator & Portfolio
 
-### OpenAI-Compatible Endpoint (`/v1/chat/completions`)
-```bash
-curl -X POST http://localhost:5000/v1/chat/completions \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "ip_agent_001",
-    "messages": [
-      {"role": "user", "content": "write a login component in react"}
-    ]
-  }'
-```
-
-### Direct Generative Synthesis (`/api/generate`)
-```bash
-curl -X POST http://localhost:5000/api/generate \
-  -H "Content-Type: application/json" \
-  -d '{
-    "prompt": "python web scraper",
-    "type": "code"
-  }'
-```
-
----
-
-## 🌐 Production Deployment Guide
-
-| Target | Platform | Command / Config |
-| :--- | :--- | :--- |
-| **Frontend GUI** | Vercel / Netlify | Build Command: `npm run build` | Output Dir: `gui/dist` |
-| **Backend API** | Render / Railway / Fly.io | Command: `uvicorn server:app --host 0.0.0.0 --port $PORT` |
-| **Container** | Docker | `docker build -t ip-agent . && docker run -p 5000:5000 ip-agent` |
+- **Developer:** Pratik (IP Verse)
+- **Portfolio Website:** [https://pratik-pt1908.netlify.app](https://pratik-pt1908.netlify.app)
+- **GitHub Repository:** [IP-Codemaker-Agent-ip_agent_001](https://github.com/thoratpratik2323-hue/IP-Codemaker-Agent-ip_agent_001)
 
 ---
 
@@ -155,5 +130,5 @@ Distributed under the **MIT License**. Free for personal and commercial open-sou
 ---
 
 <div align="center">
-  <b>Built with ❤️ for IP Verse</b>
+  <b>Built with ❤️ by <a href="https://pratik-pt1908.netlify.app">Pratik</a> for IP Verse</b>
 </div>
